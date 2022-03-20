@@ -30,6 +30,7 @@ args+=(
     '(--retries)--retries[Retry n times]:int:'
     '(--rpl)--rpl[Use tag as a replacement string for perl expression]:string:'
     '(-):command: _command_names -e'
+    '(-X)-X[Multiple arguments with context replace]'
     '*::args: _normal'
     )
 
